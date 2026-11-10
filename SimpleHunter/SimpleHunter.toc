@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: SimpleHunter
+## Notes: Basic Addon for hunters.
+## Author: N4chen
+## Version: 1.1-Forever
+## SavedVariables: AmmoCounterDB
+
+SimpleHunter.lua
