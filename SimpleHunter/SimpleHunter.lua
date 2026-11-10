@@ -12,13 +12,13 @@ local TARGET_UPDATE_INTERVAL = 0.2
 local ZONE_COLORS = {
     ranged = { 0, 1, 0 },
     deadzone = { 1, 0, 0 },
-    tooclose = { 0.4, 0.8, 1 },
+    melee = { 0.4, 0.8, 1 },
     out = { 0.6, 0.6, 0.6 },
 }
 local ZONE_LABELS = {
     ranged = "ON RANGED",
     deadzone = "DEADZONE",
-    tooclose = "TOO CLOSE",
+    melee = "MELEE",
     out = "OUT OF RANGE",
 }
 
@@ -410,7 +410,7 @@ local function GetRangeZone(unit)
     local checkDistance = type(CheckInteractDistance) == "function"
 
     if meleeRange == 1 or (checkDistance and CheckInteractDistance(unit, FIXED_MELEE_INDEX)) then
-        return "tooclose"
+        return "melee"
     end
 
     if checkDistance and CheckInteractDistance(unit, FIXED_NEAR_INDEX) then

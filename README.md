@@ -9,8 +9,8 @@ Shows your ammo count and, above it, your target's name with a range state.
 | State | Color | Meaning |
 |---|---|---|
 | `ON RANGED` | Green | Auto Shot is in range |
-| `TOO CLOSE` | Light blue | You are in melee range |
-| `DEADZONE` | Red | Too far to melee, too close to shoot |
+| `MELEE` | Light blue | You are in melee range |
+| `DEADZONE` | Red | Too far to melee, MELEE to shoot |
 | `OUT OF RANGE` | Gray | Beyond shooting range |
 
 - The count turns red when ammo is below 400.
@@ -27,7 +27,7 @@ Muestra tu munición y, arriba, el nombre del target con su estado de rango.
 | Estado | Color | Significado |
 |---|---|---|
 | `ON RANGED` | Verde | El Auto Shot está en rango |
-| `TOO CLOSE` | Celeste | Estás en rango melee |
+| `MELEE` | Celeste | Estás en rango melee |
 | `DEADZONE` | Rojo | Muy lejos para melee, muy cerca para disparar |
 | `OUT OF RANGE` | Gris | Fuera del rango de disparo |
 
@@ -37,7 +37,3 @@ Muestra tu munición y, arriba, el nombre del target con su estado de rango.
 **Instalación:** copiá la carpeta `SimpleHunter` en `Interface/AddOns/`, y reiniciá el juego o usá `/reload`.
 
 **Comandos:** `/SH on` | `/SH off` | `/SH reset`
-
-## License
-
-[MIT](LICENSE)
