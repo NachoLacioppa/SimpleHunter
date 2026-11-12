@@ -37,3 +37,10 @@ Muestra tu munición y, arriba, el nombre del target con su estado de rango.
 **Instalación:** copiá la carpeta `SimpleHunter` en `Interface/AddOns/`, y reiniciá el juego o usá `/reload`.
 
 **Comandos:** `/SH on` | `/SH off` | `/SH reset`
+
+
+## Gallery
+<img width="151" height="90" alt="sh1" src="https://github.com/user-attachments/assets/6ea25c50-33c4-4843-9ef0-6d7a71354daa" />
+<img width="154" height="87" alt="sh2" src="https://github.com/user-attachments/assets/06e3037b-70fd-426b-8e99-5f95056d5941" />
+<img width="156" height="84" alt="sh3" src="https://github.com/user-attachments/assets/63f02fa2-1b99-46b1-adf3-6343f38c7adb" />
+<img width="601" height="442" alt="sh4" src="https://github.com/user-attachments/assets/1cb844a8-7c48-4ae6-b2fc-f95539796ade" />
